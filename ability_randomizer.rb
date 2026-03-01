@@ -28,8 +28,8 @@ if defined?(ModSettingsMenu)
                                            on_press: proc {
                                                            ModifyPokemonData::shuffle_abilities()
                                                           },
-                                           category: "Debug & Developer",
-                                           searchable: ["reset", "clear", "default"]
+                                           category: "Difficulty",
+                                           searchable: ["randomizer"]
                                           })
 
 end
